@@ -1,5 +1,56 @@
 body {
-    margin-left: 100px;
-    margin-top: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
 }
 
+.input {
+  margin-top: 10px;
+}
+
+p {
+  background-color: red;
+}
+
+p:hover {
+  background-color: green;
+}
+
+#link {
+  color: purple;
+}
+
+#link:visited {
+  color: blue;
+}
+
+.textbox {
+  border: 2px solid royalblue;
+}
+
+.textbox:focus {
+  border: 2px solid purple;
+}
+
+li:first-child {
+  background-color: red;
+}
+
+li:last-child {
+  background-color: red;
+}
+
+li:nth-child(3) {
+  background-color: green;
+}
+
+li:nth-child(odd) {
+  background-color: purple;
+}
+
+li:nth-child(even) {
+  background-color: blue;
+}
+
+li:nth-child(2n) {
+  background-color: brown;
+}
